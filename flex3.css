@@ -1,0 +1,79 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background-color: black;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+    padding-left: 18px;
+    text-align:right;
+    margin-top:100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:14px;
+}
+
+.container div{
+    //the child
+    padding: 10px;
+    margin: 2px;
+    flex: 0 1 10em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: all;
+}
+
+/*right {
+    margin-left:56%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow:1;
+    color:white;
+    border: solid 1px red;
+    display: inline;
+}
+.bottom{
+    color:white;
+    margin-left: 90%;
+}
+
+*/
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:75%;
+    font-size: 10px;
+    color: tomato;
+    background-color: white;
+    margin-top:-10px;
+    margin-left:-8px;
+    padding-top: 21px;
+    padding-right:14px; 
+}
+
+.right-box {
+    color: white;
+    flex: 0 1 10em;
+    text-align:center;
+    font-size: 5vw;
+    width:50%;
+    margin-left:50%;
+    position:fixed !important;
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+}
